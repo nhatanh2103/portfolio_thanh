@@ -38,7 +38,7 @@ app.get(`/sub-projects`, (req, res) => {
     });
 });
 
-const port = process.env.port || 5000;
+const port = process.env.port || 8080;
 app.listen(port, () => {
     console.log("Server is running http://localhost:" + port);
 });
