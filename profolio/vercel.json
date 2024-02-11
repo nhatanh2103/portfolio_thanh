@@ -1,11 +1,5 @@
 {
   "version": 2,
-  "functions": {
-    "your-function-name": {
-      "runtime": "nodejs14.x",
-      "timeout": 30
-    }
-  },
   "builds": [
     {
       "src": "app.js",
