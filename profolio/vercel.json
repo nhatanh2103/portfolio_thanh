@@ -6,9 +6,9 @@
         "use": "@vercel/node"
       }
     ],
-    "views": [
+    "routes": [
       {
-        "src": "/(.*)",
+        "src": "./views",
         "dest": "/"
       }
     ]
