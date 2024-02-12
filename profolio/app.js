@@ -31,7 +31,7 @@ app.get("/contact", (req, res) => {
 app.get(`/sub-projects`, (req, res) => {
     const jsonData = req.query.data;
     const title = decodeURIComponent(jsonData);
-    database.get(`SELECT * FROM content WHERE title=?`, [title], (err, content) => {
+    database.get(`SELECT id,title,challenge,solution,test,website,timeline,client,services,goal FROM content WHERE title=?`, [title], (err, content) => {
         if (err) {
             console.log("Status: Fail");
             res.status(500).json({ error: 'Internal server error' });
