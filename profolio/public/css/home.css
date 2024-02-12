@@ -293,6 +293,7 @@
     align-items: center;
     margin: 10px 0;
     transition: background-color 0.3s;
+    z-index: 999999;
   }
   .circle:hover{
     background-color: var(--white-color);

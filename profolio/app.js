@@ -1,5 +1,6 @@
 const express = require("express");
 const path = require('path');
+const compression=require('compression');
 const app = express();
 const database = require('./config/database')
 
@@ -7,6 +8,7 @@ app.engine('html', require('ejs').renderFile)
 app.set('view engine', 'ejs');
 app.set('views', path.join(__dirname, 'views'));
 app.use(express.static(path.join(__dirname, 'public')));
+app.use(compression())
 
 app.get("/", (req, res) => {
     res.render('home.html')
