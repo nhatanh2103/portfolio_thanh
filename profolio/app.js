@@ -9,7 +9,7 @@ app.set('view engine', 'ejs');
 app.set('views', path.join(__dirname, 'views'));
 app.use(express.static(path.join(__dirname, 'public')));
 app.use(compression({
-    level: 6
+    level: 1,
 }))
 
 app.get("/", (req, res) => {
