@@ -8,7 +8,9 @@ app.engine('html', require('ejs').renderFile)
 app.set('view engine', 'ejs');
 app.set('views', path.join(__dirname, 'views'));
 app.use(express.static(path.join(__dirname, 'public')));
-app.use(compression())
+app.use(compression({
+    level: 6
+}))
 
 app.get("/", (req, res) => {
     res.render('home.html')
