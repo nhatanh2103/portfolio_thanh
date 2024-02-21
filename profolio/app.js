@@ -2,7 +2,7 @@ const express = require("express");
 const path = require('path');
 const compression = require('compression');
 const app = express();
-const database = require('./config/database')
+const database = require('./config/database.js')
 
 app.engine('html', require('ejs').renderFile)
 app.set('view engine', 'ejs');
