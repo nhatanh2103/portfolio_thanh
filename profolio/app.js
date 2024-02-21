@@ -29,20 +29,27 @@ app.get("/contact", (req, res) => {
 })
 
 app.get(`/sub-projects`, (req, res) => {
-    const jsonData = req.query.data;
-    const title = decodeURIComponent(jsonData);
-    database.get(`SELECT * FROM content WHERE title=?`, [title], (err, content) => {
+    const title = req.query.data;
+    const query = 'SELECT * FROM content WHERE title = ?';
+    database.get(query, [title], (err, content) => {
         if (err) {
-            console.log("Status: Fail");
-            res.status(500).json({ error: 'Internal server error' });
+            console.error("Error executing SQL query:", err);
+            // Trả về lỗi 500 và thông báo lỗi cụ thể
+            return res.status(500).json({ error: 'Internal server error' });
         } else {
             console.log("Status: Success");
-            res.status(200).render("sub-projects.html", {data: content});
+            // Trả về dữ liệu thành công
+            return res.status(200).render("sub-projects.html", { data: content });
         }
     });
 });
+
 
 const port = process.env.port || 8080;
 app.listen(port, () => {
     console.log("Server is running http://localhost:" + port);
 });
+
+function loadContent(title, content){
+    
+}
