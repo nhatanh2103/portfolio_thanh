@@ -781,6 +781,9 @@
 
 
 @media only screen and (max-width: 1024px){
+  body{
+    background-color: red;
+  }
   .contact_PC{
     display: none;
   }
