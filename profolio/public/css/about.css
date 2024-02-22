@@ -3,10 +3,6 @@
     display: none;
   }
 
-  .about_TABLET {
-    display: none;
-  }
-
   /* Biography */
   .biography {
     margin-top: 72px;
@@ -1074,12 +1070,8 @@
 
 
 
-@media only screen and (min-width: 300px) and (max-width: 1023px) {
+@media only screen and (max-width: 1023px) {
   .about_PC {
-    display: none;
-  }
-
-  .about_TABLET {
     display: none;
   }
 
