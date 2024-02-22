@@ -247,16 +247,12 @@
   .project_PC{
     display: none;
   }
-  .content1,
-  .content2{
-    margin: 5% 0;
-  }
   .content2:last-child{
     margin: 10% 0;
   }
   .projects .high_text h1{
     font-family: istok;
-    font-size: 60px;
+    font-size: 100px;
     text-align: center;
     margin: 10% auto;
     font-weight: 800;
@@ -265,13 +261,12 @@
     margin: 0;
   }
   .big_content{
-
+    margin: 3% 10%;
     padding: 30px;
+    width: 850px;
     border-radius: 10px;
     border: 2px solid black;
     box-shadow: 10px 10px 0px 0px var(--black-color);
-    width: 100%;
-
   }
 
   .big_content .content_left{
@@ -294,14 +289,14 @@
   }
   .big_content .content_right p:first-of-type{
     color: var(--red-color);
-    font-size: 18px;
+    font-size: 30px;
     font-family: istok;
     margin-top: 3%;
   }
 
   .big_content .content_right h3{
     color: var(--black-color);
-    font-size: 30px;
+    font-size: 45px;
     font-family: istok;
     font-weight: 800;
     margin: 3% 0;
@@ -309,7 +304,7 @@
 
   .big_content .content_right p:last-of-type{
     color: var(--black-color);
-    font-size: 16px;
+    font-size: 35px;
     font-family: istok;
     margin: 5% 0;
   }
@@ -318,15 +313,16 @@
     display: flex;
   }
   .small_box_content img{
-    height: 40px;
-    width: 40px;
+    height: 80px;
+    width: 80px;
   }
+  #visit,
   .small_box_content button{
     padding: 2%;
-    background-color: var(--black-color);
     border-radius: 10px;
-    margin-left: 20px;
     border: 2px solid var(--black-color);
+    width: 30%;
+    font-size: 30px;
   }
   .small_box_content button a{
     color: var(--white-color);
@@ -388,8 +384,8 @@
     position: relative;
   }
   .big_content .divide img{
-    height: 35px;
-    width: 35px;
+    height: 60px;
+    width: 60px;
     position: absolute;
     right: 10%;
     top: 20%;

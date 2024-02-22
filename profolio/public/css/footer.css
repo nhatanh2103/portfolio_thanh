@@ -85,16 +85,14 @@
   }
   .footer{
     border-top: 2px solid black;
-    height: 20%;
     position: relative;
     padding: 2% 0;
-
   }
 
   .footer span,
   .footer p{
     font-family: istok;
-    font-size: 18px;
+    font-size: 50px;
     text-align: end;
     color: var(--black-color);
     text-align: center;

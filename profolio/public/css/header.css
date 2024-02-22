@@ -163,7 +163,7 @@
   }
 
   .nav_left .fa-bars{
-    font-size: 50px;
+    font-size: 125px;
   }
   .fa-sm{
     color: var(--black-color);
@@ -206,7 +206,7 @@
 
   .list_nav_left li a{
     font-weight: 500;
-    font-size: 25px;
+    font-size: 58px;
     color: var(--black-color);
     text-decoration: none;
     position: relative;
@@ -263,8 +263,8 @@
   }
 
   .list_nav_right li img{
-    height: 50px;
-    width: 50px;
+    height: 82px;
+    width: 75px;
   }
 
   .list_nav_right li a{
@@ -275,9 +275,9 @@
 
   .nav_right .circle{
     position: relative;
-    left: 35%;
-    height: 65px;
-    width: 65px;
+    left: 60%;
+    height: 154px;
+    width: 153px;
     border-radius: 50%;
     display: flex;
     background-color: var(--black-color);
@@ -294,7 +294,7 @@
   .nav_right .circle a{
     font-family: day_one;
     position: absolute;
-    font-size: 12px;
+    font-size: 26px;
     color: var(--white-color);
     text-decoration: none;
 
@@ -309,9 +309,8 @@
 
 
   .nav_right .circle .spin{
-    height: 150px;
+    height: 315px;
     width: auto;
-    z-index: -1;
   }
   .circle .spin img{
     position: relative;
@@ -355,10 +354,11 @@
     left: 40%;
     top: 50%;
     transform: translate(-50%,-50%);
-    width: 64px;
-    height: 77px;
+    width: 125px;
+    height: 151px;
     background-image: url("../images/nav_logo_icon/black.png");
     background-color: var(--F5F5F5-color);
+    background-size: 125px;
   }
   .header_MB .header .logo_icon:hover{
     background-color: var(--F5F5F5-color);
