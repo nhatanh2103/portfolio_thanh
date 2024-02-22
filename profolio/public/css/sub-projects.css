@@ -322,7 +322,7 @@
   .details_projects h3 {
     font-weight: 500;
     color: var(--black-color);
-    font-size: 32px;
+    font-size: 45px;
     font-weight: 500;
     font-family: istok;
     margin-bottom: 16px;
@@ -331,7 +331,7 @@
   .line .content p {
     font-weight: 500;
     color: var(--black-color);
-    font-size: 16px;
+    font-size: 30px;
     font-family: istok;
   }
 
