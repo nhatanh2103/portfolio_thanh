@@ -2,6 +2,9 @@
   .project_MB{
     display: none;
   }
+  body{
+    background-color: green;
+  }
   .projects{
     margin: 3% 0 3% 0;
   }
@@ -246,6 +249,9 @@
 @media only screen and (max-width: 1023px){
   .project_PC{
     display: none;
+  }
+  body{
+    background-color: red;
   }
   .content2:last-child{
     margin: 10% 0;

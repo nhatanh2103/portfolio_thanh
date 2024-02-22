@@ -1,7 +1,4 @@
 @media only screen and (min-width: 1024px) {
-  body{
-    background-color: green;
-  }
   .about_MB {
     display: none;
   }
@@ -1043,10 +1040,6 @@
 @media only screen and (max-width: 1023px) {
   .about_PC {
     display: none;
-  }
-  
-  body{
-    background-color: red;
   }
 
   .biography {

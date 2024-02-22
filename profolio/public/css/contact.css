@@ -2,6 +2,9 @@
   .contact_MB{
     display: none;
   }
+  body{
+    background-color: green;
+  }
   .contact{
     margin: 100px 0;
     position: relative;
