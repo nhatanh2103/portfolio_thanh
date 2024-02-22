@@ -283,7 +283,6 @@ window.onscroll = function () {
   var small_content3 = document.getElementById("small_content3_TABLET")
   var small_content4 = document.getElementById("small_content4_TABLET")
   if (window.scrollY >= 3800) {
-    console.log(edu_before)
     edu_before?.classList.add("edu_ani_TABLET")
     nutdo1?.classList.add("nutdo1_ani_TABLET")
     anh1?.classList.add("nutdo1_ani_TABLET")
