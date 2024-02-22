@@ -243,7 +243,7 @@
 
 
 
-@media only screen and (max-width: 1023px){
+@media only screen and (max-width: 480px){
   .project_PC{
     display: none;
   }
