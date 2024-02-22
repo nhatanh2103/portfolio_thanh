@@ -1,8 +1,9 @@
-@media only screen and (min-width: 1024px){
-  .footer_MB{
+@media only screen and (min-width: 1024px) {
+  .footer_MB {
     display: none;
   }
-  .footer{
+
+  .footer {
     border-top: 2px solid black;
     height: 100px;
     position: relative;
@@ -13,18 +14,19 @@
   }
 
   .footer span,
-  .footer p{
+  .footer p {
     font-family: istok;
     font-size: 18px;
     text-align: end;
     color: var(--black-color);
     text-align: center;
   }
-  .footer .mid span{
+
+  .footer .mid span {
     position: relative;
   }
 
-  .footer .mid span:last-child::after{
+  .footer .mid span:last-child::after {
     position: absolute;
     content: "";
     height: 1px;
@@ -34,11 +36,12 @@
     left: 50%;
     transform: translate(-50%, -50%);
   }
-  .footer .right span{
+
+  .footer .right span {
     position: relative;
   }
 
-  .footer .right span:last-child::after{
+  .footer .right span:last-child::after {
     position: absolute;
     content: "";
     height: 1px;
@@ -48,60 +51,65 @@
     left: 50%;
     transform: translate(-50%, -50%);
   }
-  .right{
+
+  .right {
     /* float: right; */
     text-align: center;
   }
-  .right a{
+
+  .right a {
     text-decoration: none;
 
 
   }
 
-  .mid span:first-child{
+  .mid span:first-child {
     color: var(--red-color);
 
   }
 
 
-  .left{
+  .left {
     /* float: left; */
     text-align: center;
   }
 
-  .mid p{
+  .mid p {
     text-align: center;
   }
 }
-.border_footer{
+
+.border_footer {
   height: 3px;
   width: 100%;
   background-color: red;
 }
 
-@media only screen and (max-width: 1023px){
-  .footer_PC{
+@media only screen and (max-width: 1023px) {
+  .footer_PC {
     display: none;
   }
-  .footer{
+
+  .footer {
     border-top: 2px solid black;
     position: relative;
     padding: 2% 0;
   }
 
   .footer span,
-  .footer p{
+  .footer p {
     font-family: istok;
     font-size: 50px;
     text-align: end;
     color: var(--black-color);
     text-align: center;
   }
-  .footer .mid span{
+
+  .footer .mid span {
     position: relative;
   }
 
-  .footer .mid span:last-child::after{
+  .footer .mid span:last-child::after {
     position: absolute;
     content: "";
     height: 1px;
@@ -111,11 +119,12 @@
     left: 50%;
     transform: translate(-50%, -50%);
   }
-  .footer .right span{
+
+  .footer .right span {
     position: relative;
   }
 
-  .footer .right span:last-child::after{
+  .footer .right span:last-child::after {
     position: absolute;
     content: "";
     height: 1px;
@@ -125,21 +134,23 @@
     left: 50%;
     transform: translate(-50%, -50%);
   }
+
   .right,
   .mid,
-  .left{
+  .left {
     text-align: center;
   }
-  a{
+
+  a {
     text-decoration: none;
   }
 
-  .mid span:first-child{
+  .mid span:first-child {
     color: var(--red-color);
 
   }
 
-  .mid span:last-child{
+  .mid span:last-child {
     color: var(--black-color);
 
   }

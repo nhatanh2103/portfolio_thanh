@@ -1,27 +1,32 @@
-@media only screen and (min-width: 1024px){
-  .sub_projects_MB{
+@media only screen and (min-width: 1024px) {
+  .sub_projects_MB {
     display: none;
   }
+
   /* Sub Projects */
-  .sub_projects{
+  .sub_projects {
     margin-top: 72px;
   }
-  .sub_projects .bio_infor{
+
+  .sub_projects .bio_infor {
     display: flex;
 
   }
-  .sub_projects .high_text h1{
+
+  .sub_projects .high_text h1 {
     font-family: istok;
     font-size: 80px;
     text-align: center;
     margin-bottom: 10%;
     font-weight: 800;
   }
-  .sub_projects .small_title{
+
+  .sub_projects .small_title {
     display: flex;
     padding-bottom: 4%;
   }
-  .sub_projects .small_title .column_title p{
+
+  .sub_projects .small_title .column_title p {
     color: var(--black-color);
     font-size: 14px;
     font-weight: 600;
@@ -29,7 +34,7 @@
     margin-bottom: 3%;
   }
 
-  .sub_projects .small_title .column_title span{
+  .sub_projects .small_title .column_title span {
     color: var(--black-color);
     font-size: 32px;
     font-weight: 600;
@@ -37,7 +42,8 @@
     margin-bottom: 3%;
     position: relative;
   }
-  .sub_projects .small_title .column_title span::before{
+
+  .sub_projects .small_title .column_title span::before {
     content: "";
     width: 100%;
     height: 3px;
@@ -53,32 +59,35 @@
     display: flex;
     justify-content: center;
     align-items: center;
-}
+  }
 
-.big_content img {
+  .big_content img {
     max-width: 100%;
     max-height: 100%;
     object-fit: contain;
     width: 100%;
     height: 100%;
     box-sizing: border-box;
-}
+  }
 
-  .line{
+  .line {
     display: flex;
     margin-bottom: 27px;
   }
-  .details_projects{
+
+  .details_projects {
     margin-bottom: 100px;
   }
-  .details_projects h2{
+
+  .details_projects h2 {
     color: var(--black-color);
     font-size: 32px;
     font-weight: 600;
     font-family: istok;
     margin-bottom: 27px;
   }
-  .details_projects h3{
+
+  .details_projects h3 {
     font-weight: 500;
     color: var(--black-color);
     font-size: 32px;
@@ -86,13 +95,15 @@
     font-family: istok;
     margin-bottom: 16px;
   }
-  .line .content p{
+
+  .line .content p {
     font-weight: 500;
     color: var(--black-color);
     font-size: 16px;
     font-family: istok;
   }
-  .line .content{
+
+  .line .content {
     padding: 32px;
     background-color: #E4E4E4;
     position: relative;
@@ -100,7 +111,7 @@
 
   }
 
-  .projects .high_text h3{
+  .projects .high_text h3 {
     font-family: istok;
     font-size: 48px;
     text-align: center;
@@ -108,10 +119,11 @@
     font-weight: 800;
   }
 
-  .content2{
+  .content2 {
     margin-bottom: 100px;
   }
-  .content2 .sm_box{
+
+  .content2 .sm_box {
     padding: 35px;
     border-radius: 10px;
     border: 2px solid black;
@@ -121,11 +133,12 @@
   }
 
   /* ảnh của content nhỏ */
-  .content2 .sm_box .img{
+  .content2 .sm_box .img {
     width: 100%;
     /* height: 100%; */
   }
-  .content2 .sm_box img{
+
+  .content2 .sm_box img {
     width: 100%;
     /* height: 100%; */
     transition: transform 0.5s, filter 1.5s ease-in-out;
@@ -135,16 +148,17 @@
     transform: scale(103%);
   }
 
-  .content2 .divide{
+  .content2 .divide {
     display: flex;
 
   }
 
-  .sm_box .divide{
+  .sm_box .divide {
     display: flex;
     position: relative;
   }
-  .sm_box .divide img{
+
+  .sm_box .divide img {
     height: 35px;
     width: 35px;
     position: absolute;
@@ -153,7 +167,7 @@
   }
 
   /* icon figma */
-  .content2 .divide img{
+  .content2 .divide img {
     width: 40px;
     height: 40px;
   }
@@ -161,7 +175,7 @@
 
 
 
-  .content2 .sm_box p{
+  .content2 .sm_box p {
     color: var(--red-color);
     font-size: 20px;
     font-family: istok;
@@ -169,7 +183,7 @@
   }
 
   /* chỉnh chữ h3 to hơn */
-  .content2 .sm_box h3{
+  .content2 .sm_box h3 {
     color: var(--black-color);
     font-size: 30px;
     font-family: istok;
@@ -179,7 +193,7 @@
 
 
   /* chỉnh chữ p của thẻ a */
-  .content2 .small_content .sm_box a{
+  .content2 .small_content .sm_box a {
     color: var(--black-color);
     font-size: 20px;
     font-family: istok;
@@ -189,7 +203,7 @@
 
 
   /* hover vào thẻ p của thẻ a */
-  .content2 .sm_box a::before{
+  .content2 .sm_box a::before {
     position: absolute;
     content: "";
     background-color: var(--black-color);
@@ -204,7 +218,8 @@
   .content2 .small_content .sm_box a:hover {
     color: var(--red-color);
   }
-  .content2 .sm_box a:hover:before{
+
+  .content2 .sm_box a:hover:before {
     position: absolute;
     content: "";
     background-color: var(--red-color);
@@ -215,30 +230,35 @@
   }
 }
 
-@media only screen and (max-width: 1023px){
-  .sub_projects_PC{
+@media only screen and (max-width: 1023px) {
+  .sub_projects_PC {
     display: none;
   }
-/* Sub Projects */
-  .sub_projects{
+
+  /* Sub Projects */
+  .sub_projects {
     margin-top: 72px;
   }
-  .sub_projects .bio_infor{
+
+  .sub_projects .bio_infor {
     display: flex;
 
   }
-  .sub_projects .high_text h1{
+
+  .sub_projects .high_text h1 {
     font-family: istok;
     font-size: 80px;
     text-align: center;
     margin-bottom: 10%;
     font-weight: 800;
   }
-  .sub_projects .small_title{
+
+  .sub_projects .small_title {
     display: flex;
     padding-bottom: 4%;
   }
-  .sub_projects .small_title .column_title p{
+
+  .sub_projects .small_title .column_title p {
     color: var(--black-color);
     font-size: 14px;
     font-weight: 600;
@@ -246,7 +266,7 @@
     margin-bottom: 3%;
   }
 
-  .sub_projects .small_title .column_title span{
+  .sub_projects .small_title .column_title span {
     color: var(--black-color);
     font-size: 32px;
     font-weight: 600;
@@ -254,7 +274,8 @@
     margin-bottom: 3%;
     position: relative;
   }
-  .sub_projects .small_title .column_title span::before{
+
+  .sub_projects .small_title .column_title span::before {
     content: "";
     width: 100%;
     height: 3px;
@@ -270,32 +291,35 @@
     display: flex;
     justify-content: center;
     align-items: center;
-}
+  }
 
-.big_content img {
+  .big_content img {
     max-width: 100%;
     max-height: 100%;
     object-fit: contain;
     width: 100%;
     height: 100%;
     box-sizing: border-box;
-}
+  }
 
-  .line{
+  .line {
     display: flex;
     margin-bottom: 27px;
   }
-  .details_projects{
+
+  .details_projects {
     margin-bottom: 100px;
   }
-  .details_projects h2{
+
+  .details_projects h2 {
     color: var(--black-color);
     font-size: 32px;
     font-weight: 600;
     font-family: istok;
     margin-bottom: 27px;
   }
-  .details_projects h3{
+
+  .details_projects h3 {
     font-weight: 500;
     color: var(--black-color);
     font-size: 32px;
@@ -303,13 +327,15 @@
     font-family: istok;
     margin-bottom: 16px;
   }
-  .line .content p{
+
+  .line .content p {
     font-weight: 500;
     color: var(--black-color);
     font-size: 16px;
     font-family: istok;
   }
-  .line .content{
+
+  .line .content {
     padding: 32px;
     background-color: #E4E4E4;
     position: relative;
@@ -317,7 +343,7 @@
 
   }
 
-  .projects .high_text h3{
+  .projects .high_text h3 {
     font-family: istok;
     font-size: 48px;
     text-align: center;
@@ -325,10 +351,11 @@
     font-weight: 800;
   }
 
-  .content2{
+  .content2 {
     margin-bottom: 100px;
   }
-  .content2 .sm_box{
+
+  .content2 .sm_box {
     padding: 35px;
     border-radius: 10px;
     border: 2px solid black;
@@ -338,11 +365,12 @@
   }
 
   /* ảnh của content nhỏ */
-  .content2 .sm_box .img{
+  .content2 .sm_box .img {
     width: 100%;
     /* height: 100%; */
   }
-  .content2 .sm_box img{
+
+  .content2 .sm_box img {
     width: 100%;
     /* height: 100%; */
     transition: transform 0.5s, filter 1.5s ease-in-out;
@@ -352,16 +380,17 @@
     transform: scale(103%);
   }
 
-  .content2 .divide{
+  .content2 .divide {
     display: flex;
 
   }
 
-  .sm_box .divide{
+  .sm_box .divide {
     display: flex;
     position: relative;
   }
-  .sm_box .divide img{
+
+  .sm_box .divide img {
     height: 35px;
     width: 35px;
     position: absolute;
@@ -370,7 +399,7 @@
   }
 
   /* icon figma */
-  .content2 .divide img{
+  .content2 .divide img {
     width: 40px;
     height: 40px;
   }
@@ -378,7 +407,7 @@
 
 
 
-  .content2 .sm_box p{
+  .content2 .sm_box p {
     color: var(--red-color);
     font-size: 20px;
     font-family: istok;
@@ -386,7 +415,7 @@
   }
 
   /* chỉnh chữ h3 to hơn */
-  .content2 .sm_box h3{
+  .content2 .sm_box h3 {
     color: var(--black-color);
     font-size: 30px;
     font-family: istok;
@@ -396,7 +425,7 @@
 
 
   /* chỉnh chữ p của thẻ a */
-  .content2 .small_content .sm_box a{
+  .content2 .small_content .sm_box a {
     color: var(--black-color);
     font-size: 20px;
     font-family: istok;
@@ -406,7 +435,7 @@
 
 
   /* hover vào thẻ p của thẻ a */
-  .content2 .sm_box a::before{
+  .content2 .sm_box a::before {
     position: absolute;
     content: "";
     background-color: var(--black-color);
@@ -421,7 +450,8 @@
   .content2 .small_content .sm_box a:hover {
     color: var(--red-color);
   }
-  .content2 .sm_box a:hover:before{
+
+  .content2 .sm_box a:hover:before {
     position: absolute;
     content: "";
     background-color: var(--red-color);

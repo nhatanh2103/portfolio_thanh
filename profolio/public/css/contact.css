@@ -1,11 +1,9 @@
-@media only screen and (min-width: 1024px){
-  .contact_MB{
+@media only screen and (min-width: 1024px) {
+  .contact_MB {
     display: none;
   }
-  body{
-    background-color: green;
-  }
-  .contact{
+
+  .contact {
     margin: 100px 0;
     position: relative;
     background-color: #F5F5F5;
@@ -16,40 +14,45 @@
     top: 50%;
     transform: translateY(-50%);
   }
-  .left_contact h1{
+
+  .left_contact h1 {
     font-size: 70px;
     font-family: istok;
     font-weight: 800;
     color: var(--black-color);
     line-height: 96px;
   }
-  .left_contact p{
+
+  .left_contact p {
     margin-top: 10px;
     font-size: 16px;
     font-family: istok;
     color: var(--black-color);
     text-align: justify;
   }
-  .form_message{
+
+  .form_message {
 
     position: relative;
     left: 55%;
     transform: translateX(-50%);
     width: 80%;
   }
-  .form_message::before{
+
+  .form_message::before {
     position: absolute;
     left: 0;
     content: url(../images/contact_img.png);
     top: 0;
     width: 100%;
     height: auto;
-    transform: translate(-11%,-5%);
+    transform: translate(-11%, -5%);
   }
-  .form_message .form{
+
+  .form_message .form {
     padding: 35px;
     background-color: var(--white-color);
-    border: 1px solid rgb(0,0,0, 50%);
+    border: 1px solid rgb(0, 0, 0, 50%);
     box-shadow: 10px 10px 0px 0px black;
     border-radius: 10px;
     height: 525px;
@@ -58,40 +61,46 @@
     animation: fadeInFromTop 0.5s linear forwards, floating ease 4s infinite;
   }
 
-  .form_message_no{
+  .form_message_no {
     animation: none !important;
   }
 
-  @keyframes fadeInFromTop{
-    from{
+  @keyframes fadeInFromTop {
+    from {
       opacity: 0;
       transform: translateY(-20px);
 
     }
-    to{
+
+    to {
       opacity: 1;
       transform: translateY(0);
     }
   }
 
   @keyframes floating {
-    0%{
-      transform: translate(0%,0%) rotate(360deg);
+    0% {
+      transform: translate(0%, 0%) rotate(360deg);
     }
-    20%{
-      transform: translate(5%,10%) rotate(360deg);
+
+    20% {
+      transform: translate(5%, 10%) rotate(360deg);
     }
-    40%{
-      transform: translate(0%,5%) rotate(360deg);
+
+    40% {
+      transform: translate(0%, 5%) rotate(360deg);
     }
-    60%{
-      transform: translate(5%,0%) rotate(360deg);
+
+    60% {
+      transform: translate(5%, 0%) rotate(360deg);
     }
-    80%{
-      transform: translate(6%,6%) rotate(360deg);
+
+    80% {
+      transform: translate(6%, 6%) rotate(360deg);
     }
-    100%{
-      transform: translate(0%,0%) rotate(360deg);
+
+    100% {
+      transform: translate(0%, 0%) rotate(360deg);
     }
   }
 
@@ -106,7 +115,7 @@
   } */
 
 
-  .form_message .form h3{
+  .form_message .form h3 {
     font-size: 24px;
     font-family: istok;
     color: var(--black-color);
@@ -115,10 +124,10 @@
 
   }
 
-  .form_message .form .form_group{
+  .form_message .form .form_group {
     margin: 27px 0;
     width: 100%;
-    border: 1px solid rgb(0, 0, 0,50%);
+    border: 1px solid rgb(0, 0, 0, 50%);
     padding: 10px 0 10px 10px;
     border-radius: 10px;
     /* position: relative;
@@ -128,8 +137,8 @@
 
 
 
-  .form_message .form .form_group input{
-    border: 1px solid  white;
+  .form_message .form .form_group input {
+    border: 1px solid white;
     width: 95%;
     font-family: istok;
     display: -webkit-box;
@@ -138,49 +147,52 @@
     overflow: hidden;
   }
 
-  .form_message .form .form_group:last-of-type input{
+  .form_message .form .form_group:last-of-type input {
     padding-bottom: 30px;
   }
 
-  .form_message .form .form_group:last-of-type input{
+  .form_message .form .form_group:last-of-type input {
     padding-bottom: 30px;
   }
+
   input:focus,
   textarea:focus {
     outline: none;
     border-color: white;
   }
 
-  .form_message .form button{
+  .form_message .form button {
     padding: 20px;
     width: 100%;
-    background-color: var(--red-color) ;
+    background-color: var(--red-color);
     border-radius: 10px;
     border: 1px solid var(--red-color);
   }
 
-  .form_message .form button a{
+  .form_message .form button a {
     font-size: 24px;
     font-family: istok;
     font-weight: 800;
     color: var(--white-color);
     text-decoration: none;
   }
-  .form_message .form button:hover a{
+
+  .form_message .form button:hover a {
     font-size: 24px;
     font-family: istok;
     font-weight: 800;
     color: var(--red-color);
     text-decoration: none;
   }
-  .form_message .form button:hover{
-    background-color: var(--white-color) ;
+
+  .form_message .form button:hover {
+    background-color: var(--white-color);
     border: 1px solid var(--red-color);
     transition: background-color 0.3s;
   }
 
   /* SERVE */
-  .serve{
+  .serve {
     background-image: url(../images/background_serve.jpg);
 
   }
@@ -194,10 +206,11 @@
 
 
   /* faq */
-  .faq{
+  .faq {
     margin-bottom: 5%;
   }
-  .faq .small_content{
+
+  .faq .small_content {
     display: inline-block;
     width: 100%;
     background-color: var(--white-color);
@@ -208,23 +221,25 @@
     padding: 25px;
   }
 
-  .faq .box_main{
+  .faq .box_main {
     display: flex;
     align-items: center;
   }
 
-  .faq .small_content p{
+  .faq .small_content p {
 
     font-family: istok;
     font-weight: 700;
     font-size: 18px;
   }
-  .faq .small_content a{
+
+  .faq .small_content a {
     position: relative;
     right: 0%;
 
   }
-  .faq .small_content a{
+
+  .faq .small_content a {
     color: var(--red-color);
     font-family: istok;
     font-size: 16px;
@@ -232,7 +247,7 @@
     text-decoration: none;
   }
 
-  .faq .small_content a::before{
+  .faq .small_content a::before {
     background-color: var(--red-color);
     content: "";
     height: 1px;
@@ -242,17 +257,17 @@
     transform: translateY(-50%);
   }
 
-  .box_main{
+  .box_main {
     position: relative;
   }
 
-  .box_main .box_left{
+  .box_main .box_left {
     position: absolute;
     left: 93%;
     width: 85px;
   }
 
-  .box_left button{
+  .box_left button {
     border: 0px;
     background-color: white;
     color: var(--red-color);
@@ -264,7 +279,7 @@
     display: none;
   }
 
-  .item-box{
+  .item-box {
     margin-top: 30px;
     position: relative;
     width: 1050px;
@@ -282,7 +297,7 @@
     position: absolute;
     background-color: red;
   } */
-  .faq .high_text h1{
+  .faq .high_text h1 {
     font-family: istok;
     font-size: 80px;
     text-align: center;
@@ -290,15 +305,16 @@
     font-weight: 800;
   }
 
-  .box_left u{
+  .box_left u {
     font-family: istok;
     font-size: 15px;
   }
-  .serve{
+
+  .serve {
     margin: 550px 0;
   }
 
-  .web_spider{
+  .web_spider {
 
     position: relative;
   }
@@ -307,7 +323,7 @@
 
   .ngoai h3,
   .trong h3,
-  .giua h3{
+  .giua h3 {
     padding: 20px;
     background-color: var(--black-color);
     color: var(--white-color);
@@ -323,44 +339,48 @@
 
   /* nut ngoai */
 
-  .ngoai h3:nth-of-type(1){
+  .ngoai h3:nth-of-type(1) {
     position: absolute;
     left: 25%;
     top: 0%;
-    transform: translate(-50%,-50%);
+    transform: translate(-50%, -50%);
   }
-  .ngoai h3:nth-of-type(2){
+
+  .ngoai h3:nth-of-type(2) {
     position: absolute;
     left: 0;
     top: 50%;
-    transform: translate(-50%,-50%);
+    transform: translate(-50%, -50%);
   }
-  .ngoai h3:nth-of-type(3){
+
+  .ngoai h3:nth-of-type(3) {
     position: absolute;
     top: 100%;
     left: 0;
     transform: translate(50%, -50%);
   }
-  .ngoai h3:nth-of-type(4){
+
+  .ngoai h3:nth-of-type(4) {
     position: absolute;
     left: 75%;
     top: 99%;
     transform: translate(-50%, -50%);
 
   }
-  .ngoai h3:nth-of-type(5){
+
+  .ngoai h3:nth-of-type(5) {
     position: absolute;
     top: 50%;
     right: 0;
-    transform: translate(50%,-50%);
+    transform: translate(50%, -50%);
   }
 
 
-  .ngoai h3:nth-of-type(6){
+  .ngoai h3:nth-of-type(6) {
     position: absolute;
     left: 75%;
     top: 0%;
-    transform: translate(-50%,-50%);
+    transform: translate(-50%, -50%);
   }
 
 
@@ -376,36 +396,40 @@
 
   /* nut giua */
 
-  .giua h3:nth-of-type(1){
+  .giua h3:nth-of-type(1) {
     position: absolute;
     left: 50%;
     top: 0;
-    transform: translate(-50%,0);
+    transform: translate(-50%, 0);
     /* z-index: 1; */
   }
-  .giua h3:nth-of-type(2){
+
+  .giua h3:nth-of-type(2) {
     position: absolute;
     left: 0;
     top: 35%;
-    transform: translate(-50%,-50%);
+    transform: translate(-50%, -50%);
   }
-  .giua h3:nth-of-type(3){
+
+  .giua h3:nth-of-type(3) {
     position: absolute;
     left: 0;
     top: 100%;
     transform: translate(50%, -50%);
   }
-  .giua h3:nth-of-type(4){
+
+  .giua h3:nth-of-type(4) {
     position: absolute;
     left: 75%;
     top: 100%;
     transform: translate(-30%, -50%);
   }
-  .giua h3:nth-of-type(5){
+
+  .giua h3:nth-of-type(5) {
     position: absolute;
     left: 100%;
     top: 35%;
-    transform: translate(-50%,-50%);
+    transform: translate(-50%, -50%);
   }
 
 
@@ -415,20 +439,22 @@
   /* nut trong */
 
 
-  .trong h3:nth-of-type(1){
+  .trong h3:nth-of-type(1) {
     position: absolute;
     left: 50%;
     top: 0;
-    transform: translate(-50%,0);
+    transform: translate(-50%, 0);
     /* z-index: 1; */
   }
-  .trong h3:nth-of-type(2){
+
+  .trong h3:nth-of-type(2) {
     position: absolute;
     left: 0;
     top: 50%;
-    transform: translate(-50%,-50%);
+    transform: translate(-50%, -50%);
   }
-  .trong h3:nth-of-type(3){
+
+  .trong h3:nth-of-type(3) {
     position: absolute;
     left: 35%;
     top: 98%;
@@ -436,7 +462,7 @@
   }
 
 
-  .trong h3:nth-of-type(4){
+  .trong h3:nth-of-type(4) {
     position: absolute;
     left: 100%;
     top: 50%;
@@ -449,15 +475,15 @@
 
 
 
-  .first_button{
+  .first_button {
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%,-50%);
+    transform: translate(-50%, -50%);
 
   }
 
-  .first_button button{
+  .first_button button {
     padding: 30px;
     background-color: var(--black-color);
     color: var(--white-color);
@@ -467,7 +493,7 @@
     cursor: pointer;
   }
 
-  .first_button button h3{
+  .first_button button h3 {
     font-size: 30px;
     font-weight: 800;
     font-family: istok;
@@ -498,79 +524,83 @@
 
 
 
-  .web_spider{
+  .web_spider {
     display: none;
   }
 
-  .show{
+  .show {
     display: block;
   }
 
   .ngoai,
   .giua,
-  .trong{
+  .trong {
 
     position: absolute;
     left: 50%;
-    transform: translate(-50%,-50%);
+    transform: translate(-50%, -50%);
   }
-  .ngoai img{
+
+  .ngoai img {
     height: 650px;
     width: auto;
     position: relative;
   }
 
 
-  .giua img{
+  .giua img {
     height: 500px;
     width: auto;
     position: relative;
   }
 
-  .trong img{
+  .trong img {
     height: 310px;
     width: auto;
     position: relative;
   }
 
 
-  .trong{
+  .trong {
     opacity: 0;
     animation: trong 2s forwards;
 
   }
 
   @keyframes trong {
-    0%{
+    0% {
       opacity: 0;
       position: absolute;
       left: 50%;
-      transform: translate(-50%,-50%) rotate(-45deg) scale(0.5);
+      transform: translate(-50%, -50%) rotate(-45deg) scale(0.5);
     }
-    100%{
+
+    100% {
       opacity: 1;
       position: absolute;
       left: 50%;
-      transform: translate(-50%,-50%) rotate(0) scale(1);
+      transform: translate(-50%, -50%) rotate(0) scale(1);
 
     }
   }
+
   /* Vòng tròn trong cùng */
 
   .vong:nth-child(3) h3:nth-of-type(1),
   .vong:nth-child(3) h3:nth-of-type(2),
   .vong:nth-child(3) h3:nth-of-type(3),
-  .vong:nth-child(3) h3:nth-of-type(4){
+  .vong:nth-child(3) h3:nth-of-type(4) {
     opacity: 0;
     animation: vong_trong_h3 1s forwards;
 
   }
 
   @keyframes vong_trong_h3 {
-    0%{
+    0% {
       opacity: 0;
     }
-    100%{
+
+    100% {
       opacity: 1;
     }
   }
@@ -580,7 +610,7 @@
   .vong:nth-child(3) h3:nth-of-type(1),
   .vong:nth-child(3) h3:nth-of-type(2),
   .vong:nth-child(3) h3:nth-of-type(3),
-  .vong:nth-child(3) h3:nth-of-type(4){
+  .vong:nth-child(3) h3:nth-of-type(4) {
     animation-delay: 1s;
   }
 
@@ -590,26 +620,27 @@
 
 
 
-  .giua{
+  .giua {
     opacity: 0;
     animation: giua 2s forwards;
 
   }
 
   @keyframes giua {
-    0%{
+    0% {
       opacity: 0;
       transform: scale(0);
       position: absolute;
       left: 50%;
-      transform: translate(-50%,-50%) rotate(45deg) scale(0.5);
+      transform: translate(-50%, -50%) rotate(45deg) scale(0.5);
     }
-    100%{
+
+    100% {
       opacity: 1;
       transform: scale(1);
       position: absolute;
       left: 50%;
-      transform: translate(-50%,-50%) rotate(0) scale(1);
+      transform: translate(-50%, -50%) rotate(0) scale(1);
     }
   }
 
@@ -617,17 +648,18 @@
   .vong:nth-child(2) h3:nth-of-type(2),
   .vong:nth-child(2) h3:nth-of-type(3),
   .vong:nth-child(2) h3:nth-of-type(4),
-  .vong:nth-child(2) h3:nth-of-type(5){
+  .vong:nth-child(2) h3:nth-of-type(5) {
     opacity: 0;
     animation: vong_giua_h3 1s forwards;
 
   }
 
   @keyframes vong_giua_h3 {
-    0%{
+    0% {
       opacity: 0;
     }
-    100%{
+
+    100% {
       opacity: 1;
     }
   }
@@ -636,7 +668,7 @@
   .vong:nth-child(2) h3:nth-of-type(2),
   .vong:nth-child(2) h3:nth-of-type(3),
   .vong:nth-child(2) h3:nth-of-type(4),
-  .vong:nth-child(2) h3:nth-of-type(5){
+  .vong:nth-child(2) h3:nth-of-type(5) {
     animation-delay: 1.5s;
   }
 
@@ -645,26 +677,27 @@
   /* Vòng tròn ngoài cùng */
 
 
-  .ngoai{
+  .ngoai {
     opacity: 0;
     animation: ngoai 2s forwards;
 
   }
 
   @keyframes ngoai {
-    0%{
+    0% {
       opacity: 0;
       transform: scale(0);
       position: absolute;
       left: 50%;
-      transform: translate(-50%,-50%) rotate(-45deg) scale(0.5);
+      transform: translate(-50%, -50%) rotate(-45deg) scale(0.5);
     }
-    100%{
+
+    100% {
       opacity: 1;
       transform: scale(1);
       position: absolute;
       left: 50%;
-      transform: translate(-50%,-50%) rotate(0) scale(1);
+      transform: translate(-50%, -50%) rotate(0) scale(1);
     }
   }
 
@@ -674,17 +707,18 @@
   .vong:nth-child(1) h3:nth-of-type(3),
   .vong:nth-child(1) h3:nth-of-type(4),
   .vong:nth-child(1) h3:nth-of-type(5),
-  .vong:nth-child(1) h3:nth-of-type(6){
+  .vong:nth-child(1) h3:nth-of-type(6) {
     opacity: 0;
     animation: vong_ngoai_h3 1s forwards;
 
   }
 
   @keyframes vong_ngoai_h3 {
-    0%{
+    0% {
       opacity: 0;
     }
-    100%{
+
+    100% {
       opacity: 1;
     }
   }
@@ -697,35 +731,35 @@
   .vong:nth-child(1) h3:nth-of-type(3),
   .vong:nth-child(1) h3:nth-of-type(4),
   .vong:nth-child(1) h3:nth-of-type(5),
-  .vong:nth-child(1) h3:nth-of-type(6){
+  .vong:nth-child(1) h3:nth-of-type(6) {
     animation-delay: 2s;
   }
 }
 
-@media only screen and (max-width: 1023px){
-  body{
-    background-color: red;
-  }
-  .contact_PC{
+@media only screen and (max-width: 1023px) {
+  .contact_PC {
     display: none;
   }
-  .contact{
+
+  .contact {
     margin-top: 5%;
     position: relative;
     background-color: #F5F5F5;
     max-width: 100%;
   }
-  .contact .col-12{
+
+  .contact .col-12 {
     max-width: 100%;
     width: 100%;
     padding: 0;
   }
+
   /* .left_contact {
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
   } */
-  .left_contact h1{
+  .left_contact h1 {
     margin: 5px 0;
     font-size: 100px;
     font-family: istok;
@@ -734,7 +768,8 @@
     line-height: 80px;
     text-align: center;
   }
-  .left_contact p{
+
+  .left_contact p {
     margin-top: 3%;
     font-size: 30px;
     margin: 0 5%;
@@ -742,13 +777,15 @@
     color: var(--black-color);
     text-align: center;
   }
-  .form_message{
+
+  .form_message {
     position: relative;
     left: 50%;
     transform: translateX(-50%);
     width: 60%;
     margin: 10% 0;
   }
+
   /* .form_message::before{
     position: absolute;
     left: 0;
@@ -756,16 +793,17 @@
     transform: translate(-10%);
 
   } */
-  .form_message img{
+  .form_message img {
     position: absolute;
     width: auto;
     height: 100%;
     object-fit: contain;
   }
-  .form_message .form{
+
+  .form_message .form {
     padding: 20px;
     background-color: var(--white-color);
-    border: 1px solid rgb(0,0,0, 50%);
+    border: 1px solid rgb(0, 0, 0, 50%);
     box-shadow: 10px 10px 0px 0px black;
     border-radius: 10px;
     height: fit-content;
@@ -774,40 +812,46 @@
     animation: fadeInFromTop 0.5s linear forwards, floating ease 4s infinite;
   }
 
-  .form_message_no{
+  .form_message_no {
     animation: none !important;
   }
 
-  @keyframes fadeInFromTop{
-    from{
+  @keyframes fadeInFromTop {
+    from {
       opacity: 0;
       transform: translateY(-20px);
 
     }
-    to{
+
+    to {
       opacity: 1;
       transform: translateY(0);
     }
   }
 
   @keyframes floating {
-    0%{
-      transform: translate(0%,0%) rotate(360deg);
+    0% {
+      transform: translate(0%, 0%) rotate(360deg);
     }
-    20%{
-      transform: translate(5%,10%) rotate(360deg);
+
+    20% {
+      transform: translate(5%, 10%) rotate(360deg);
     }
-    40%{
-      transform: translate(0%,5%) rotate(360deg);
+
+    40% {
+      transform: translate(0%, 5%) rotate(360deg);
     }
-    60%{
-      transform: translate(5%,0%) rotate(360deg);
+
+    60% {
+      transform: translate(5%, 0%) rotate(360deg);
     }
-    80%{
-      transform: translate(6%,6%) rotate(360deg);
+
+    80% {
+      transform: translate(6%, 6%) rotate(360deg);
     }
-    100%{
-      transform: translate(0%,0%) rotate(360deg);
+
+    100% {
+      transform: translate(0%, 0%) rotate(360deg);
     }
   }
 
@@ -822,7 +866,7 @@
   } */
 
 
-  .form_message .form h3{
+  .form_message .form h3 {
     font-size: 70px;
     font-family: istok;
     color: var(--black-color);
@@ -831,10 +875,10 @@
 
   }
 
-  .form_message .form .form_group{
+  .form_message .form .form_group {
     margin: 27px 0;
     width: 100%;
-    border: 1px solid rgb(0, 0, 0,50%);
+    border: 1px solid rgb(0, 0, 0, 50%);
     padding: 10px 0 10px 10px;
     border-radius: 10px;
     /* position: relative;
@@ -844,8 +888,8 @@
 
 
 
-  .form_message .form .form_group input{
-    border: 1px solid  white;
+  .form_message .form .form_group input {
+    border: 1px solid white;
     width: 95%;
     font-family: istok;
     display: -webkit-box;
@@ -862,37 +906,39 @@
     border-color: white;
   }
 
-  .form_message .form button{
+  .form_message .form button {
     padding: 10px;
     width: 100%;
-    background-color: var(--red-color) ;
+    background-color: var(--red-color);
     border-radius: 10px;
     border: 1px solid var(--red-color);
   }
 
-  .form_message .form button a{
+  .form_message .form button a {
     font-size: 30px;
     font-family: istok;
     font-weight: 800;
     color: var(--white-color);
     text-decoration: none;
   }
-  .form_message .form button:hover a{
+
+  .form_message .form button:hover a {
     font-size: 24px;
     font-family: istok;
     font-weight: 800;
     color: var(--red-color);
     text-decoration: none;
   }
-  .form_message .form button:hover{
-    background-color: var(--white-color) ;
+
+  .form_message .form button:hover {
+    background-color: var(--white-color);
     border: 1px solid var(--red-color);
     transition: background-color 0.3s;
   }
 
 
   /* SERVE */
-  .serve{
+  .serve {
     background-image: url(../images/background_serve.jpg);
   }
 
@@ -905,10 +951,11 @@
 
 
   /* faq */
-  .faq{
+  .faq {
     margin-bottom: 100px;
   }
-  .faq .small_content{
+
+  .faq .small_content {
     display: inline-block;
     width: 100%;
     background-color: var(--white-color);
@@ -919,22 +966,24 @@
     padding: 25px;
   }
 
-  .faq .box_main{
+  .faq .box_main {
     display: flex;
     align-items: center;
   }
 
-  .faq .small_content p{
+  .faq .small_content p {
     font-family: istok;
     font-weight: 700;
     font-size: 40px;
   }
-  .faq .small_content a{
+
+  .faq .small_content a {
     position: relative;
     right: 0%;
 
   }
-  .faq .small_content a{
+
+  .faq .small_content a {
     color: var(--red-color);
     font-family: istok;
     font-size: 16px;
@@ -942,7 +991,7 @@
     text-decoration: none;
   }
 
-  .faq .small_content a::before{
+  .faq .small_content a::before {
     background-color: var(--red-color);
     content: "";
     height: 1px;
@@ -952,37 +1001,38 @@
     transform: translateY(-50%);
   }
 
-  .box_main{
+  .box_main {
     position: relative;
   }
 
 
   /* btn */
-  .box_main .box_right{
+  .box_main .box_right {
     position: absolute;
     left: 95%;
     width: 85px;
     transform: translateX(-50%);
   }
 
-  .box_right button{
+  .box_right button {
     border: 0px;
     background-color: white;
     color: var(--red-color);
     cursor: pointer;
     outline: 0px;
   }
+
   /* btn */
   .small_box {
     display: none;
   }
 
-  .small_box_mb{
+  .small_box_mb {
     padding-top: 20px;
     font-size: 30px;
   }
 
-  .item-box{
+  .item-box {
     margin-top: 30px;
     position: relative;
     /* left: -61%; */
@@ -992,7 +1042,7 @@
     overflow-x: hidden;
   }
 
-  #btn_mb{
+  #btn_mb {
     position: relative;
     top: 10px;
   }
@@ -1003,7 +1053,7 @@
     position: absolute;
     background-color: red;
   } */
-  .faq .high_text h1{
+  .faq .high_text h1 {
     font-family: istok;
     font-size: 100px;
     text-align: center;
@@ -1011,15 +1061,16 @@
     font-weight: 800;
   }
 
-  .box_left u{
+  .box_left u {
     font-family: istok;
     font-size: 15px;
   }
-  .serve{
+
+  .serve {
     padding: 65% 0;
   }
 
-  .web_spider{
+  .web_spider {
 
     position: relative;
   }
@@ -1037,7 +1088,7 @@
 
   .ngoai_MB h3,
   .trong_MB h3,
-  .giua_MB h3{
+  .giua_MB h3 {
     padding: 10px;
     background-color: var(--black-color);
     color: var(--white-color);
@@ -1048,12 +1099,12 @@
     text-align: center;
   }
 
-  .giua_MB img{
+  .giua_MB img {
     position: relative;
     top: -17px;
   }
 
-  .trong_MB img{
+  .trong_MB img {
     position: relative;
     top: -10px;
   }
@@ -1061,44 +1112,48 @@
 
   /* nut ngoai */
 
-  .ngoai_MB h3:nth-of-type(1){
+  .ngoai_MB h3:nth-of-type(1) {
     position: absolute;
     left: 25%;
     top: 0%;
-    transform: translate(-50%,-50%);
+    transform: translate(-50%, -50%);
   }
-  .ngoai_MB h3:nth-of-type(2){
+
+  .ngoai_MB h3:nth-of-type(2) {
     position: absolute;
     left: 3%;
     top: 50%;
-    transform: translate(-50%,-50%);
+    transform: translate(-50%, -50%);
   }
-  .ngoai_MB h3:nth-of-type(3){
+
+  .ngoai_MB h3:nth-of-type(3) {
     position: absolute;
     top: 100%;
     left: 40px;
     transform: translate(50%, -50%);
   }
-  .ngoai_MB h3:nth-of-type(4){
+
+  .ngoai_MB h3:nth-of-type(4) {
     position: absolute;
     left: 75%;
     top: 101%;
     transform: translate(-50%, -50%);
 
   }
-  .ngoai_MB h3:nth-of-type(5){
+
+  .ngoai_MB h3:nth-of-type(5) {
     position: absolute;
     top: 50%;
     right: 0;
-    transform: translate(50%,-50%);
+    transform: translate(50%, -50%);
   }
 
 
-  .ngoai_MB h3:nth-of-type(6){
+  .ngoai_MB h3:nth-of-type(6) {
     position: absolute;
     left: 75%;
     top: 0%;
-    transform: translate(-50%,-50%);
+    transform: translate(-50%, -50%);
   }
 
 
@@ -1106,36 +1161,40 @@
 
   /* nut giua */
 
-  .giua_MB h3:nth-of-type(1){
+  .giua_MB h3:nth-of-type(1) {
     position: absolute;
     left: 50%;
     top: -12%;
-    transform: translate(-50%,0);
+    transform: translate(-50%, 0);
     /* z-index: 1; */
   }
-  .giua_MB h3:nth-of-type(2){
+
+  .giua_MB h3:nth-of-type(2) {
     position: absolute;
     left: 0;
     top: 34%;
-    transform: translate(-50%,-50%);
+    transform: translate(-50%, -50%);
   }
-  .giua_MB h3:nth-of-type(3){
+
+  .giua_MB h3:nth-of-type(3) {
     position: absolute;
     left: -5%;
     top: 95%;
     transform: translate(50%, -50%);
   }
-  .giua_MB h3:nth-of-type(4){
+
+  .giua_MB h3:nth-of-type(4) {
     position: absolute;
     left: 75%;
     top: 95%;
     transform: translate(-30%, -50%);
   }
-  .giua_MB h3:nth-of-type(5){
+
+  .giua_MB h3:nth-of-type(5) {
     position: absolute;
     left: 100%;
     top: 30%;
-    transform: translate(-50%,-50%);
+    transform: translate(-50%, -50%);
   }
 
 
@@ -1145,20 +1204,22 @@
   /* nut trong */
 
 
-  .trong_MB h3:nth-of-type(1){
+  .trong_MB h3:nth-of-type(1) {
     position: absolute;
     left: 50%;
     top: -11%;
-    transform: translate(-50%,0);
+    transform: translate(-50%, 0);
     /* z-index: 1; */
   }
-  .trong_MB h3:nth-of-type(2){
+
+  .trong_MB h3:nth-of-type(2) {
     position: absolute;
     left: 0;
     top: 46%;
-    transform: translate(-50%,-50%);
+    transform: translate(-50%, -50%);
   }
-  .trong_MB h3:nth-of-type(3){
+
+  .trong_MB h3:nth-of-type(3) {
     position: absolute;
     left: 32%;
     top: 80%;
@@ -1166,7 +1227,7 @@
   }
 
 
-  .trong_MB h3:nth-of-type(4){
+  .trong_MB h3:nth-of-type(4) {
     position: absolute;
     left: 100%;
     top: 43%;
@@ -1174,15 +1235,15 @@
   }
 
 
-  .first_button_MB{
+  .first_button_MB {
     position: absolute;
     top: -1000%;
     left: 50%;
-    transform: translate(-50%,-50%);
+    transform: translate(-50%, -50%);
 
   }
 
-  .first_button_MB button{
+  .first_button_MB button {
     padding: 10px;
     background-color: var(--black-color);
     color: var(--white-color);
@@ -1192,7 +1253,7 @@
     cursor: pointer;
   }
 
-  .first_button_MB button h3{
+  .first_button_MB button h3 {
     font-size: 30px;
     font-weight: 800;
     font-family: istok;
@@ -1205,13 +1266,14 @@
 
 
 
-  .web_spider_MB{
+  .web_spider_MB {
     display: none;
   }
 
-  .show{
+  .show {
     display: block;
   }
+
   /* 3 loại vòng */
   /* .ngoai_MB,
   .giua_MB,
@@ -1220,58 +1282,61 @@
     left: 50%;
     transform: translate(-50%,-50%);
   } */
-  .ngoai_MB{
+  .ngoai_MB {
     width: 355px;
     height: auto;
   }
-  .giua_MB{
+
+  .giua_MB {
     width: 220px;
     height: auto;
   }
-  .trong_MB{
+
+  .trong_MB {
     width: 150px;
     height: auto;
   }
 
 
 
-  .ngoai_MB img{
+  .ngoai_MB img {
     height: auto;
     width: 100%;
     position: relative;
   }
 
 
-  .giua_MB img{
+  .giua_MB img {
     height: auto;
     width: 100%;
     position: relative;
   }
 
-  .trong_MB img{
+  .trong_MB img {
     height: auto;
     width: 100%;
     position: relative;
   }
 
-  .trong_MB{
+  .trong_MB {
     opacity: 0;
     animation: trong 2s forwards;
     width: 50%;
   }
 
   @keyframes trong {
-    0%{
+    0% {
       opacity: 0;
       position: absolute;
       left: 50%;
-      transform: translate(-50%,-50%) rotate(-45deg) scale(0.5);
+      transform: translate(-50%, -50%) rotate(-45deg) scale(0.5);
     }
-    100%{
+
+    100% {
       opacity: 1;
       position: absolute;
       left: 50%;
-      transform: translate(-50%,-50%) rotate(0) scale(1);
+      transform: translate(-50%, -50%) rotate(0) scale(1);
 
     }
 
@@ -1285,17 +1350,18 @@
   .vong_MB:nth-child(3) h3:nth-of-type(1),
   .vong_MB:nth-child(3) h3:nth-of-type(2),
   .vong_MB:nth-child(3) h3:nth-of-type(3),
-  .vong_MB:nth-child(3) h3:nth-of-type(4){
+  .vong_MB:nth-child(3) h3:nth-of-type(4) {
     opacity: 0;
     animation: vong_trong_h3 1s forwards;
 
   }
 
   @keyframes vong_trong_h3 {
-    0%{
+    0% {
       opacity: 0;
     }
-    100%{
+
+    100% {
       opacity: 1;
     }
   }
@@ -1305,7 +1371,7 @@
   .vong_MB:nth-child(3) h3:nth-of-type(1),
   .vong_MB:nth-child(3) h3:nth-of-type(2),
   .vong_MB:nth-child(3) h3:nth-of-type(3),
-  .vong_MB:nth-child(3) h3:nth-of-type(4){
+  .vong_MB:nth-child(3) h3:nth-of-type(4) {
     animation-delay: 1s;
     font-size: 30px;
   }
@@ -1313,26 +1379,27 @@
 
 
   /* Vòng tròn giữa */
-  .giua_MB{
+  .giua_MB {
     opacity: 0;
     animation: giua 2s forwards;
     width: 75%;
   }
 
   @keyframes giua {
-    0%{
+    0% {
       opacity: 0;
       transform: scale(0);
       position: absolute;
       left: 50%;
-      transform: translate(-50%,-50%) rotate(45deg) scale(0.5);
+      transform: translate(-50%, -50%) rotate(45deg) scale(0.5);
     }
-    100%{
+
+    100% {
       opacity: 1;
       transform: scale(1);
       position: absolute;
       left: 50%;
-      transform: translate(-50%,-50%) rotate(0) scale(1);
+      transform: translate(-50%, -50%) rotate(0) scale(1);
     }
   }
 
@@ -1340,17 +1407,18 @@
   .vong_MB:nth-child(2) h3:nth-of-type(2),
   .vong_MB:nth-child(2) h3:nth-of-type(3),
   .vong_MB:nth-child(2) h3:nth-of-type(4),
-  .vong_MB:nth-child(2) h3:nth-of-type(5){
+  .vong_MB:nth-child(2) h3:nth-of-type(5) {
     opacity: 0;
     animation: vong_giua_h3 1s forwards;
 
   }
 
   @keyframes vong_giua_h3 {
-    0%{
+    0% {
       opacity: 0;
     }
-    100%{
+
+    100% {
       opacity: 1;
     }
   }
@@ -1359,7 +1427,7 @@
   .vong_MB:nth-child(2) h3:nth-of-type(2),
   .vong_MB:nth-child(2) h3:nth-of-type(3),
   .vong_MB:nth-child(2) h3:nth-of-type(4),
-  .vong_MB:nth-child(2) h3:nth-of-type(5){
+  .vong_MB:nth-child(2) h3:nth-of-type(5) {
     animation-delay: 1.5s;
     font-size: 30px;
   }
@@ -1367,26 +1435,27 @@
 
 
   /* Vòng tròn ngoài cùng */
-  .ngoai_MB{
+  .ngoai_MB {
     opacity: 0;
     animation: ngoai 2s forwards;
     width: 120%;
   }
 
   @keyframes ngoai {
-    0%{
+    0% {
       opacity: 0;
       transform: scale(0);
       position: absolute;
       left: 50%;
-      transform: translate(-50%,-50%) rotate(-45deg) scale(0.5);
+      transform: translate(-50%, -50%) rotate(-45deg) scale(0.5);
     }
-    100%{
+
+    100% {
       opacity: 1;
       transform: scale(1);
       position: absolute;
       left: 50%;
-      transform: translate(-50%,-50%) rotate(0) scale(1);
+      transform: translate(-50%, -50%) rotate(0) scale(1);
     }
   }
 
@@ -1396,17 +1465,18 @@
   .vong_MB:nth-child(1) h3:nth-of-type(3),
   .vong_MB:nth-child(1) h3:nth-of-type(4),
   .vong_MB:nth-child(1) h3:nth-of-type(5),
-  .vong_MB:nth-child(1) h3:nth-of-type(6){
+  .vong_MB:nth-child(1) h3:nth-of-type(6) {
     opacity: 0;
     animation: vong_ngoai_h3 1s forwards;
 
   }
 
   @keyframes vong_ngoai_h3 {
-    0%{
+    0% {
       opacity: 0;
     }
-    100%{
+
+    100% {
       opacity: 1;
     }
   }
@@ -1416,7 +1486,7 @@
   .vong_MB:nth-child(1) h3:nth-of-type(3),
   .vong_MB:nth-child(1) h3:nth-of-type(4),
   .vong_MB:nth-child(1) h3:nth-of-type(5),
-  .vong_MB:nth-child(1) h3:nth-of-type(6){
+  .vong_MB:nth-child(1) h3:nth-of-type(6) {
     animation-delay: 2s;
     font-size: 30px;
   }

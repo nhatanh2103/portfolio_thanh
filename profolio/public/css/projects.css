@@ -1,21 +1,21 @@
-@media only screen and (min-width: 1024px){
-  .project_MB{
+@media only screen and (min-width: 1024px) {
+  .project_MB {
     display: none;
   }
-  body{
-    background-color: green;
-  }
-  .projects{
+
+  .projects {
     margin: 3% 0 3% 0;
   }
-  .content2{
+
+  .content2 {
     margin-bottom: 130px;
   }
-  .content1{
+
+  .content1 {
     margin-bottom: 72px;
   }
 
-  .projects .high_text h1{
+  .projects .high_text h1 {
     font-family: istok;
     font-size: 80px;
     text-align: center;
@@ -23,7 +23,7 @@
     font-weight: 800;
   }
 
-  .big_content{
+  .big_content {
 
     padding: 30px;
     border-radius: 10px;
@@ -33,7 +33,7 @@
 
   }
 
-  #visit{
+  #visit {
     color: white;
     background-color: black;
     border: 2px solid transparent;
@@ -41,7 +41,7 @@
     padding: 10px;
   }
 
-  #visit:hover{
+  #visit:hover {
     color: black;
     background-color: white;
     border: 2px solid black;
@@ -52,12 +52,13 @@
   .content_left{
     height: 150px;
   } */
-  .big_content .content_left{
+  .big_content .content_left {
     width: 100%;
     height: 100%;
     position: relative;
   }
-  .big_content .content_left img{
+
+  .big_content .content_left img {
     width: 100%;
     height: 100%;
     object-fit: contain;
@@ -66,50 +67,57 @@
     position: absolute;
 
   }
+
   .big_content:hover .content_left img {
     transform: scale(103%);
   }
-  .big_content .content_left p:first-of-type{
+
+  .big_content .content_left p:first-of-type {
     color: var(--red-color);
     font-size: 20px;
     font-family: istok;
     margin-top: 20px;
   }
 
-  .big_content .content_right h3{
+  .big_content .content_right h3 {
     color: var(--black-color);
     font-size: 36px;
     font-family: istok;
     font-weight: 800;
     margin: 10px 0;
   }
-  .content_right p:first-child{
+
+  .content_right p:first-child {
     color: #C94440;
     font-size: 20px;
     font-family: istok;
   }
-  .big_content .content_right p:last-of-type{
+
+  .big_content .content_right p:last-of-type {
     color: var(--black-color);
     font-size: 17px;
     font-family: istok;
     margin: 25px 0;
   }
 
-  .small_box_content{
+  .small_box_content {
     display: flex;
   }
-  .small_box_content img{
+
+  .small_box_content img {
     height: 40px;
     width: 40px;
   }
-  .small_box_content button{
+
+  .small_box_content button {
     /* padding: 10px; */
     background-color: var(--black-color);
     border-radius: 10px;
     margin-left: 20px;
     border: 2px solid var(--black-color);
   }
-  .small_box_content button a{
+
+  .small_box_content button a {
     color: var(--white-color);
     font-family: istok;
     font-size: 16px;
@@ -117,11 +125,12 @@
     text-decoration: none;
   }
 
-  .small_box_content button:hover{
+  .small_box_content button:hover {
     background-color: var(--white-color);
     transition: 0.5s;
   }
-  .small_box_content button:hover a{
+
+  .small_box_content button:hover a {
     color: var(--black-color);
     font-family: istok;
     font-size: 16px;
@@ -132,7 +141,7 @@
 
 
 
-  .content2 .sm_box{
+  .content2 .sm_box {
     padding: 35px;
     border-radius: 10px;
     border: 2px solid black;
@@ -142,10 +151,11 @@
   }
 
   /* ảnh của content nhỏ */
-  .content2 .sm_box .img{
+  .content2 .sm_box .img {
     width: 100%;
   }
-  .content2 .sm_box img{
+
+  .content2 .sm_box img {
     width: 100%;
     transition: transform 0.5s, filter 1.5s ease-in-out;
   }
@@ -154,16 +164,17 @@
     transform: scale(103%);
   }
 
-  .content2 .divide{
+  .content2 .divide {
     display: flex;
 
   }
 
-  .sm_box .divide{
+  .sm_box .divide {
     display: flex;
     position: relative;
   }
-  .sm_box .divide img{
+
+  .sm_box .divide img {
     height: 35px;
     width: 35px;
     position: absolute;
@@ -172,7 +183,7 @@
   }
 
   /* icon figma */
-  .content2 .divide img{
+  .content2 .divide img {
     width: 40px;
     height: 40px;
   }
@@ -180,7 +191,7 @@
 
 
 
-  .content2 .sm_box p{
+  .content2 .sm_box p {
     color: var(--red-color);
     font-size: 20px;
     font-family: istok;
@@ -188,7 +199,7 @@
   }
 
   /* chỉnh chữ h3 to hơn */
-  .content2 .sm_box h3{
+  .content2 .sm_box h3 {
     color: var(--black-color);
     font-size: 30px;
     font-family: istok;
@@ -198,7 +209,7 @@
 
 
   /* chỉnh chữ p của thẻ a */
-  .content2 .small_content .sm_box a{
+  .content2 .small_content .sm_box a {
     color: var(--black-color);
     font-size: 20px;
     font-family: istok;
@@ -208,7 +219,7 @@
 
 
   /* hover vào thẻ p của thẻ a */
-  .content2 .sm_box a::before{
+  .content2 .sm_box a::before {
     position: absolute;
     content: "";
     background-color: var(--black-color);
@@ -223,7 +234,8 @@
   .content2 .small_content .sm_box a:hover {
     color: var(--red-color);
   }
-  .content2 .sm_box a:hover:before{
+
+  .content2 .sm_box a:hover:before {
     position: absolute;
     content: "";
     background-color: var(--red-color);
@@ -238,27 +250,28 @@
 
 }
 
-@media only screen and (max-width: 1023px){
-  .project_PC{
+@media only screen and (max-width: 1023px) {
+  .project_PC {
     display: none;
   }
-  body{
-    background-color: red;
-  }
-  .content2:last-child{
+
+  .content2:last-child {
     margin: 10% 0;
   }
-  .projects .high_text h1{
+
+  .projects .high_text h1 {
     font-family: istok;
     font-size: 600%;
     text-align: center;
     margin: 10% auto;
     font-weight: 800;
   }
-  .projects .container .row{
+
+  .projects .container .row {
     margin: 0;
   }
-  .big_content{
+
+  .big_content {
     margin: 3% 10%;
     padding: 30px;
     width: 850px;
@@ -267,14 +280,14 @@
     box-shadow: 10px 10px 0px 0px var(--black-color);
   }
 
-  .big_content .content_left{
+  .big_content .content_left {
     width: 100%;
     height: 100%;
 
   }
 
 
-  .big_content .content_left img{
+  .big_content .content_left img {
     width: 100%;
     height: auto;
     object-fit: contain;
@@ -282,17 +295,19 @@
     transition: transform 0.5s, filter 1.5s ease-in-out;
 
   }
+
   .big_content:hover .content_left img {
     transform: scale(103%);
   }
-  .big_content .content_right p:first-of-type{
+
+  .big_content .content_right p:first-of-type {
     color: var(--red-color);
     font-size: 30px;
     font-family: istok;
     margin-top: 3%;
   }
 
-  .big_content .content_right h3{
+  .big_content .content_right h3 {
     color: var(--black-color);
     font-size: 45px;
     font-family: istok;
@@ -300,29 +315,32 @@
     margin: 3% 0;
   }
 
-  .big_content .content_right p:last-of-type{
+  .big_content .content_right p:last-of-type {
     color: var(--black-color);
     font-size: 35px;
     font-family: istok;
     margin: 5% 0;
   }
 
-  .small_box_content{
+  .small_box_content {
     display: flex;
   }
-  .small_box_content img{
+
+  .small_box_content img {
     height: 80px;
     width: 80px;
   }
+
   #visit,
-  .small_box_content button{
+  .small_box_content button {
     padding: 2%;
     border-radius: 10px;
     border: 2px solid var(--black-color);
     width: 30%;
     font-size: 30px;
   }
-  .small_box_content button a{
+
+  .small_box_content button a {
     color: var(--white-color);
     font-family: istok;
     font-size: 14px;
@@ -330,12 +348,13 @@
     text-decoration: none;
   }
 
-  .small_box_content button:hover{
+  .small_box_content button:hover {
     background-color: var(--white-color);
     transition: 0.5s;
 
   }
-  .small_box_content button:hover a{
+
+  .small_box_content button:hover a {
     color: var(--black-color);
     font-family: istok;
     font-size: 14px;
@@ -346,7 +365,7 @@
 
 
 
-  .content2 .small_content{
+  .content2 .small_content {
 
     padding: 35px;
 
@@ -358,11 +377,12 @@
   }
 
   /* ảnh của content nhỏ */
-  .content2 .big_content .img{
+  .content2 .big_content .img {
     width: 100%;
     height: 100%;
   }
-  .content2 .big_content img{
+
+  .content2 .big_content img {
     width: 100%;
     height: 100%;
     transition: transform 0.5s, filter 1.5s ease-in-out;
@@ -372,16 +392,17 @@
     transform: scale(103%);
   }
 
-  .divide{
+  .divide {
     display: flex;
 
   }
 
-  .content2 .big_content .divide{
+  .content2 .big_content .divide {
     display: flex;
     position: relative;
   }
-  .big_content .divide img{
+
+  .big_content .divide img {
     height: 60px;
     width: 60px;
     position: absolute;
@@ -390,18 +411,19 @@
   }
 
   /* icon figma */
-  .divide img{
+  .divide img {
     width: 40px;
     height: 40px;
   }
-  .divide h3{
+
+  .divide h3 {
     font-size: 25px;
 
   }
 
 
 
-  .content2 .big_content p{
+  .content2 .big_content p {
     color: var(--red-color);
     font-size: 20px;
     font-family: istok;
@@ -409,7 +431,7 @@
   }
 
   /* chỉnh chữ h3 to hơn */
-  .content2 .big_content h3{
+  .content2 .big_content h3 {
     color: var(--black-color);
     font-size: 30px;
     font-family: istok;
@@ -419,7 +441,7 @@
 
 
   /* chỉnh chữ p của thẻ a */
-  .content2  .big_content a{
+  .content2 .big_content a {
     color: var(--black-color);
     font-size: 16px;
     font-family: istok;
@@ -429,7 +451,7 @@
 
 
   /* hover vào thẻ p của thẻ a */
-  .content2 .big_content a::before{
+  .content2 .big_content a::before {
     position: absolute;
     content: "";
     background-color: var(--black-color);
@@ -444,7 +466,8 @@
   .content2 .big_content a:hover {
     color: var(--red-color);
   }
-  .content2 .big_content a:hover:before{
+
+  .content2 .big_content a:hover:before {
     position: absolute;
     content: "";
     background-color: var(--red-color);
