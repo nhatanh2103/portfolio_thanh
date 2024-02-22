@@ -1074,6 +1074,10 @@
   .about_PC {
     display: none;
   }
+  
+  body{
+    background-color: red;
+  }
 
   .biography {
     margin-top: 72px;
