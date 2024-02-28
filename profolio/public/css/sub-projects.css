@@ -215,6 +215,14 @@
 
 
   /* hover vào thẻ p của thẻ a */
+  .small_content .img{
+    max-height: 451px;
+  }
+
+  .small_content .img img{
+    height: 60%;
+  }
+
   .content2 .small_content .sm_box a:hover {
     color: var(--red-color);
   }
@@ -227,6 +235,60 @@
     width: 100%;
     bottom: 5px;
     transform: translateY(-50%);
+  }
+
+  .img_footer{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+  }
+  .img_footer img{
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+  }
+
+  .img_footer h3{
+    font-size: 30px;
+    font-family: istok;
+    font-weight: 800;
+
+    color: var(--white-color);
+    content: "";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    line-height: 1.5;
+  }
+
+  .centered-button {
+    font-family: istok;
+    font-weight: 800;
+    color: var(--black-color);
+    position: absolute;
+    top: 62%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #FF3731;
+  }
+
+  .scaling-button p{
+    margin-bottom: 0;
+  }
+  .scaling-button {
+    padding: 10px 20px;
+    font-size: 16px;
+    transition: transform 0.3s ease-in-out;
+    background-color: #FF3731;
+  }
+
+  .scaling-button:hover {
+    transform: scale(1.1);
+    transform-origin: center;
+    cursor: pointer;
   }
 }
 
@@ -447,6 +509,14 @@
 
 
   /* hover vào thẻ p của thẻ a */
+
+  .small_content .img{
+    max-height: 451px;
+  }
+
+  .small_content .img img{
+    height: 60%;
+  }
   .content2 .small_content .sm_box a:hover {
     color: var(--red-color);
   }
@@ -460,4 +530,53 @@
     bottom: 5px;
     transform: translateY(-50%);
   }
+
+  .img_footer {
+    width: 100%;
+    position: relative;
+  }
+  
+  .img_footer img {
+    width: 100%;
+    height: auto;
+    z-index: -1;
+  }
+  
+  .img_footer h3 {
+    font-size: 20px;
+    font-family: istok;
+    font-weight: 800;
+    color: var(--white-color);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    line-height: 1.5;
+    margin: 0; /* Remove default margin */
+  }
+  
+  .centered-button {
+    font-family: istok;
+    font-weight: 800;
+    color: var(--black-color);
+    position: absolute;
+    top: calc(50% + 20px); /* Adjust button position */
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #FF3731;
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+  }
+  
+  .scaling-button p {
+    margin-bottom: 0;
+  }
+  
+  .scaling-button:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+  }
+  
 }
