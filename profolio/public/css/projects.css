@@ -139,15 +139,22 @@
     transition: 0.5s;
   }
 
-
-
   .content2 .sm_box {
     padding: 35px;
     border-radius: 10px;
     border: 2px solid black;
     box-shadow: 10px 10px 0px 0px var(--black-color);
     width: 100%;
+    min-height: 540px;
+    max-height: 540px;
+  }
 
+  .small_content .img{
+    max-height: 451px;
+  }
+
+  .small_content .img img{
+    height: 60%;
   }
 
   /* ảnh của content nhỏ */
@@ -362,8 +369,6 @@
     text-decoration: none;
     transition: 0.5s;
   }
-
-
 
   .content2 .small_content {
 
