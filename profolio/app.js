@@ -46,7 +46,3 @@ const port = process.env.port || 8080;
 app.listen(port, () => {
     console.log("Server is running http://localhost:" + port);
 });
-
-function loadContent(title, content) {
-
-}
