@@ -1,3 +1,13 @@
+button{
+  color: black;
+  background-color: transparent;
+  font-weight: 600;
+  font-family: istok;
+  margin-bottom: 3%;
+  position: relative;
+  border: none;
+}
+
 @media only screen and (min-width: 1024px) {
   .sub_projects_MB {
     display: none;
@@ -379,6 +389,10 @@
     font-weight: 600;
     font-family: istok;
     margin-bottom: 27px;
+  }
+
+  .centered-button{
+    margin-top: 5%;
   }
 
   .details_projects h3 {
