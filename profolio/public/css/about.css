@@ -1,3 +1,11 @@
+.left p{
+  text-align: left;
+}
+
+.left{
+  padding: 0;
+}
+
 @media only screen and (min-width: 1024px) {
   .about_MB {
     display: none;
@@ -12,7 +20,6 @@
     display: flex;
 
   }
-
 
   .biography .hight_text h1 {
     font-family: istok;
@@ -38,7 +45,6 @@
   }
 
   .bio_infor .left p {
-    padding-right: 40px;
     color: var(--black-color);
     font-size: 14px;
     font-family: istok;
@@ -161,7 +167,7 @@
     height: 100%;
     box-shadow: 10px 7px 0px 0px black;
     margin: 20px;
-
+    height: 250px;
   }
 
   .skills .sm_box img {
@@ -1060,6 +1066,7 @@
     font-weight: 600;
     font-family: istok;
     margin-bottom: 5%;
+    text-align: center;
   }
 
   /* mid */
