@@ -10,6 +10,7 @@ app.set('views', path.join(__dirname, 'views'));
 app.use(express.static(path.join(__dirname, 'public')));
 app.use(compression({ threshold: 1024 }));
 
+const pdfFile=path.join(__dirname,"public/NguyenDucThanhCV.pdf")
 
 app.get("/", (req, res) => {
     res.render('home.html')
@@ -26,6 +27,18 @@ app.get("/projects", (req, res) => {
 app.get("/contact", (req, res) => {
     res.render("contact.html")
 })
+
+app.get("/download_cv", (req, res) => {
+    console.log("Handling request to download CV...");
+        res.download(pdfFile, 'NguyenDucThanhCV.pdf', (err) => {
+        if (err) {
+            console.error('Error downloading file:', err);
+            res.status(500).send('Internal Server Error');
+        }
+    });
+});
+
+
 
 app.get(`/sub-projects`, (req, res) => {
     const title = req.query.data;

@@ -9,6 +9,9 @@
     "sqlite3": "^5.1.7",
     "zlib": "^1.0.5"
   },
+  "scripts":{
+    "start": "node app.js"
+  },
   "engines": {
     "node": "18.x"
   }
